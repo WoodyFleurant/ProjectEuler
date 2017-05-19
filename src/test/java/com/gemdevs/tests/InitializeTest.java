@@ -8,7 +8,7 @@ public class InitializeTest {
     @Test
     public void initializationTest(){
         SoftAssertions softly = new SoftAssertions();
-        softly.assertThat(softly).isNotNull();
+        softly.assertThat(true).isTrue();
     }
 
 }
